@@ -32,3 +32,13 @@
 .bottom {
   transform: rotate(180deg);
 }
+
+.top > div:first-child,
+.bottom > div:first-child {
+  padding-left: 2px;
+}
+
+.top > div:nth-child(2),
+.bottom div:nth-child(2) {
+  padding-left: 3px;
+}

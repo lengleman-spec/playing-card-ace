@@ -6,3 +6,11 @@
 :root {
   --card-height: 200px;
 }
+
+.card {
+  border: 1px solid black;
+  height: var(--card-height);
+  width: calc(var(--card-height) * 2 / 3);
+  border-radius: 5px;
+  display: grid;
+}
